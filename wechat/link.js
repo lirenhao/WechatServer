@@ -1,0 +1,8 @@
+export const UNIFIED_ORDER = 'https://api.mch.weixin.qq.com/pay/unifiedorder'
+export const ORDER_QUERY = 'https://api.mch.weixin.qq.com/pay/orderquery'
+export const CLOSE_ORDER = 'https://api.mch.weixin.qq.com/pay/closeorder'
+export const REFUND = 'https://api.mch.weixin.qq.com/secapi/pay/refund'
+export const REFUND_QUERY = 'https://api.mch.weixin.qq.com/pay/refundquery'
+export const TRANSFERS = 'https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers'
+export const GET_TRANSFER_INFO = 'https://api.mch.weixin.qq.com/mmpaymkttransfers/gettransferinfo'
+export const GET_ACCESS_TOKEN = 'https://api.weixin.qq.com/sns/oauth2/access_token'
