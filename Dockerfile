@@ -6,7 +6,7 @@ RUN apk add --no-cache --virtual .build-deps \
         g++ \
         make \
         python \
-    && cd /opt/wechatServer && npm i --production \
+    && cd /opt/wechatServer && npm i \
     && apk del .build-deps
 
 WORKDIR /opt/wechatServer
