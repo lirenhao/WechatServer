@@ -11,7 +11,7 @@ RUN apk add --no-cache --virtual .build-deps \
 
 WORKDIR /opt/wechatServer
 
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
 
-VOLUME ["/opt/wechatServer/config"]
+VOLUME ["/opt/wechatServer/config", "/opt/wechatServer/log"]
 EXPOSE 3000
