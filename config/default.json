@@ -1,16 +1,16 @@
 {
   "wechat": {
     "pay": {
-      "appId": "wxde41f5a91e1a7b02",
-      "mchId": "1486523692",
+      "appId": "wxbe36a73ca7267a88",
+      "mchId": "1489601982",
       "partnerKey": "4gmfiig9gdqp2lecrzkn4afi4dx8z8v3",
       "agentKey": "./wechat/apiclient_key.pem",
       "agentCert": "./wechat/apiclient_cert.pem"
     },
     "localIp": "47.93.100.211",
     "auth": {
-      "appId": "wxde41f5a91e1a7b02",
-      "appSecret": "73e5bae3b222296a249e1e6c312f85f7"
+      "appId": "wxbe36a73ca7267a88",
+      "appSecret": "68dfa203954dc27282861aa69e6eefa5"
     }
   }
 }
